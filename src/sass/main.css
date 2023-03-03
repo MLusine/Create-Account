@@ -1,20 +1,19 @@
-* {
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
+  box-sizing: inherit;
 }
-h1,h2,h3,h4,h5,h6 {
-  margin: 0;
-  padding: 0;
-}
+
 .container {
   width: 500px;
   background-color: #000;
   margin: 0 auto;
   margin-top: 100px;
   padding: 20px 30px 50px 30px;
-
-
 }
+
 .heading {
   color: #d31581;
   display: flex;
@@ -22,51 +21,26 @@ h1,h2,h3,h4,h5,h6 {
   justify-content: center;
   text-transform: uppercase;
   margin-bottom: 20px;
-
 }
 
 .heading::before,
-.heading::after{
+.heading::after {
   content: " ";
   display: block;
   width: 100px;
   height: 3px;
-  background-color: #d31581 ;
+  background-color: #d31581;
   margin: 0 10px;
 }
 
-.label {
+.text_or {
   color: #fff;
+  text-align: center;
+  margin: 0;
+  font-size: 13px;
+  margin-bottom: 5px;
 }
 
-.form_container {
-  width: 400px;
-  margin: 0 auto;
-  display: grid;
-  
-}
-.item {
- display: flex;
-}
-.last_name {
-  margin-left: 62px;
-}
-.inp {
-  border-radius: 5px;
-  margin-bottom: 20px;
-  height: 25px;
-}
-.checkbox {
-  display: flex;
-  justify-content: center;
-  color: #fff;
-  font-size: 13px;
-  margin-bottom: 20px;
-  
-}
-.checkboxInp {
-  margin-right: 10px;
-}
 .btn {
   width: 150px;
   background-color: #d31581;
@@ -77,6 +51,7 @@ h1,h2,h3,h4,h5,h6 {
   font-weight: bold;
   margin: 0 auto;
 }
+
 .google_btn {
   width: 150px;
   padding: 10px 25px;
@@ -84,20 +59,50 @@ h1,h2,h3,h4,h5,h6 {
   font-size: 10px;
   margin: 0 auto;
   margin-bottom: 5px;
-
 }
+
+.form_container {
+  width: 400px;
+  margin: 0 auto;
+  display: grid;
+}
+
+.label {
+  color: #fff;
+}
+
+.item {
+  display: flex;
+}
+
+.last_name {
+  margin-left: 62px;
+}
+
+.inp {
+  border-radius: 5px;
+  margin-bottom: 20px;
+  height: 25px;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.checkboxInp {
+  margin-right: 10px;
+}
+
 .input-error {
-  border-color: #fc8181; 
+  border-color: #d31581;
   border-radius: 5px;
   height: 25px;
 }
+
 .error {
   color: #d31581;
-}
-.text_or {
-  color: #fff;
-  text-align: center;
-  margin: 0;
-  font-size: 13px;
-  margin-bottom: 5px;
-}
+}/*# sourceMappingURL=main.css.map */

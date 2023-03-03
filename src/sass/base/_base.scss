@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.container {
+  width: 500px;
+  background-color: #000;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 20px 30px 50px 30px;
+
+}
+
+.heading {
+  color: #d31581;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+
+}
+
+.heading::before,
+.heading::after {
+  content: " ";
+  display: block;
+  width: 100px;
+  height: 3px;
+  background-color: #d31581;
+  margin: 0 10px;
+}
+
+.text_or {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  font-size: 13px;
+  margin-bottom: 5px;
+}

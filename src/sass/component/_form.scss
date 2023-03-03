@@ -1,0 +1,47 @@
+.form_container {
+    width: 400px;
+    margin: 0 auto;
+    display: grid;
+}
+
+.label {
+    color: #fff;
+
+}
+
+.item {
+    display: flex;
+}
+
+.last_name {
+    margin-left: 62px;
+}
+
+.inp {
+    border-radius: 5px;
+    margin-bottom: 20px;
+    height: 25px;
+}
+
+.checkbox {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 20px;
+
+}
+
+.checkboxInp {
+    margin-right: 10px;
+}
+
+.input-error {
+    border-color: #d31581;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.error {
+    color: #d31581
+}
